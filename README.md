@@ -13,7 +13,7 @@ Dependências obrigatórias:
 Passo 1: Clonar o repositório na máquina local
 
 ```bash
-git clone https://ifpb/in-netroadmap inetrm
+git clone https://github.com/ifpb/in-netroadmap inetrm
 cd inetrm
 ```
 
@@ -98,4 +98,9 @@ Puxa uma imagem docker com containernet instalado e a usa para levantar a infrae
 ```bash
 inetrm provision up --time 180
 # ou inetrm provision up -t 180
+```
+
+Alternativamente, todas as etapas podem ser realizadas de uma vez:
+```bash
+inetrm provision
 ```
